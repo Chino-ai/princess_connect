@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 15 Feb 2021 pada 06.22
+-- Waktu pembuatan: 28 Feb 2021 pada 15.36
 -- Versi server: 10.4.11-MariaDB
 -- Versi PHP: 7.2.31
 
@@ -34,6 +34,15 @@ CREATE TABLE `akun` (
   `_password` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data untuk tabel `akun`
+--
+
+INSERT INTO `akun` (`_id`, `_username`, `_email`, `_password`) VALUES
+(9, 'Ilhammaulana', 'ilham@gmail.com', '123456'),
+(10, 'lawu', 'ilham@gmail.com', '123456'),
+(11, '', 'ilham@gmail.com', '98765');
+
 -- --------------------------------------------------------
 
 --
@@ -51,7 +60,7 @@ CREATE TABLE `post` (
 --
 
 INSERT INTO `post` (`id_gambar`, `_image`, `_nama`) VALUES
-(2, '1399011558814.jpg', 'asas');
+(16, '2021-01-26-13-40-55_0.png', 'bbb');
 
 --
 -- Indexes for dumped tables
@@ -77,13 +86,13 @@ ALTER TABLE `post`
 -- AUTO_INCREMENT untuk tabel `akun`
 --
 ALTER TABLE `akun`
-  MODIFY `_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT untuk tabel `post`
 --
 ALTER TABLE `post`
-  MODIFY `id_gambar` int(111) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_gambar` int(111) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
