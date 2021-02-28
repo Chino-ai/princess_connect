@@ -5,7 +5,8 @@
  
  
  
-  
+ $email = $_POST['email']; 
+ $password = $_POST['password'];
  
   
    
@@ -31,8 +32,8 @@ if(isset($_POST['submit'])) {
       $stmt->execute([$email,$password]); 
 
       $count = $stmt->rowCount(); 
-      if($count == 1) { 
-          $_SESSION['email'] = $email;
+      if($count >= 1) { 
+         
           
          
          
