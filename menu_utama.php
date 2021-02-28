@@ -25,7 +25,7 @@ include "config/data_post.php";
             <div class="dropdown">
             
               <button type="button" class="btn" data-toggle="dropdown">
-               <img src="icons/person-circle.svg">
+               <img src="icon/person-circle.svg">
               </button>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="halaman_user.php">Profil</a>
@@ -40,7 +40,7 @@ include "config/data_post.php";
              
                 <div class="dropdown">
                   <button type="button" class="btn" data-toggle="dropdown">
-                   <img class="three-dots"src="icons/three-dots.svg" alt="">
+                   <img class="three-dots"src="icon/three-dots.svg" alt="">
                   </button>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="detail_informasi.php">Tentang Princess Connect</a> 

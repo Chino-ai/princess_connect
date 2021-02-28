@@ -17,7 +17,7 @@
                  
                     <div class="dropdown">
                       
-                       <img class="three-dots"src="icons/three-dots.svg" >
+                       <img class="three-dots"src="icon/three-dots.svg" >
                        <button type="button" class="btn" data-toggle="dropdown">
                       </button>
                       <div class="dropdown-menu">

@@ -21,7 +21,7 @@ $id = $_POST["id"];
                    
                       <div class="dropdown">
                         <button type="button" class="btn" data-toggle="dropdown">
-                         <img class="three-dots"src="icons/three-dots.svg" alt="">
+                         <img class="three-dots"src="icon/three-dots.svg" alt="">
                         </button>
                         <div class="dropdown-menu">
                           <a class="dropdown-item" href="detail_informasi.php">Tentang PrincessConnect</a> 

@@ -15,14 +15,16 @@ include "config/data_akun.php";
 
                 <div class="dropdown">
                   <button type="button" class="btn" data-toggle="dropdown">
-                   <img class="three-dots"src="icons/person-circle.svg" alt="">
+                   <img class="person-circle"src="icon/person-circle.svg" alt="">
                   </button>
                  
-               
-                 
+                  <div class="dropdown-menu">
+                  <a class="dropdown-item" href="halaman_user.php">Profil</a>
+                      </div>
+                </div>
                     <div class="dropdown">
                       <button type="button" class="btn" data-toggle="dropdown">
-                       <img class="three-dots"src="icons/three-dots.svg" alt="">
+                       <img class="three-dots"src="icon/three-dots.svg" alt="">
                       </button>
                       <div class="dropdown-menu">
                         <a class="dropdown-item" href="detail_informasi.php">Tentang PrincessConnect</a> 
