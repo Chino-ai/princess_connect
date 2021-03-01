@@ -42,8 +42,9 @@ if(isset($_POST['submit'])) {
       }else{
        
         
-        echo "<script> alert('Email atau Password salah atau tidak di isi'); </script>";
+       
         header("Location: ../login.php");
+        echo "<script> alert('Email atau Password salah atau tidak di isi'); </script>";
        
         return ;
       }

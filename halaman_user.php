@@ -20,6 +20,7 @@ include "config/data_akun.php";
                  
                   <div class="dropdown-menu">
                   <a class="dropdown-item" href="halaman_user.php">Profil</a>
+                  <a class="dropdown-item" href="index.php">Keluar</a>
                       </div>
                 </div>
                     <div class="dropdown">
